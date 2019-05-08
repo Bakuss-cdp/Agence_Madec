@@ -1,16 +1,6 @@
 enable : true
 heading : Quelques
 headingSpan : Réalisations
-filterList :
-  - filterType : marketing
-    filterTitle : Digital Marketing
-    
-  - filterType : design
-    filterTitle : Design Création
-    
-  - filterType : development
-    filterTitle : Development Web
-
 portfolioItem :
   - types : design
     image : images/portfolio/Reaslisation_1.jpg
@@ -31,26 +21,5 @@ portfolioItem :
     icon : tf-ion-android-search
     URL : #
     title : Mix Consmetic
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
-    
-  - types : marketing, development
-    image : images/portfolio/Reaslisation_1.jpg
-    icon : tf-ion-android-search
-    URL : #
-    title : Shop Deluxe
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
-    
-  - types : design
-    image : images/portfolio/Reaslisation_2.jpg
-    icon : tf-ion-android-search
-    URL : #
-    title : Chaussures Chez Aly Baba
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
-    
-  - types : marketing
-    image : images/portfolio/Reaslisation_3.jpg
-    icon : tf-ion-android-search
-    URL : #
-    title : Madec Agence
     description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
     

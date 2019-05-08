@@ -1109,6 +1109,26 @@ a:hover {
   line-height: 50px;
 }
 
+.portfolio
+{
+	
+	padding-top:10px;
+	padding-bottom:30px;
+	background-color:grey;
+	
+}
+
+/*=================================================================
+  Services Ils nous font confiance
+==================================================================*/
+.confiance
+{
+	
+	padding-top:20px;
+	padding-bottom:10px;
+	background-color:grey;
+	
+}
 /*=================================================================
   Services section
 ==================================================================*/

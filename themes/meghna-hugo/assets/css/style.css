@@ -643,7 +643,7 @@ a:hover {
 
 /*=================================== Bouton personnalisé =============*/
 .btn-hero-area {
-  margin-top: 50px;	
+  margin-top: 40px;	
   color: #0f4471;
   padding: 14px 50px;
   font-size: 20px;
@@ -651,14 +651,13 @@ a:hover {
   background-color:white;
   font-weight: bold;
   letter-spacing: 1px;
-  border-radius: 0;
   transition: all .3s ease-in 0s;
 }
 
 .btn-hero-area:hover,
 .btn-hero-area:focus {
   background-color: purple;
-  border: 2 px solid purple;
+  border: 2px solid purple;
   color: #fff;
 }
 

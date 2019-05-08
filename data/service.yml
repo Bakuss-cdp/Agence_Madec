@@ -3,25 +3,19 @@ heading : Nos
 headingSpan : Services
 serviceItem :
   - icon : tf-globe
-    title : WordPress Theme
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    title : Consulting & Stretegy
+    content : Nous réalisons un audit de vos services afin de définir les performances de votre entreprise.
+              Nous élaborons une stratégie digitale adpatée à votre secteur et votre cible
     
   - icon : tf-ion-laptop
-    title : Responsive Design
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    title : Referencment & Didital Marketing
+    content : Nous vous proposons notre savoir faire pour mettre en place des techniques permettant de communiquer, de viser et de toucher vos cibles.
     
   - icon : tf-genius
-    title : Media &amp; Advertisement
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    title : Creation & Refonte de site Internet
+    content : Nous Développons des sites web en utilisant des technologies les plus récentes allinat sécurité et éfficacité
+
     
   - icon : tf-dial
-    title : Graphic Design
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-    
-  - icon : tf-target3
-    title : Apps Development
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-    
-  - icon : tf-lifesaver
-    title : Networking
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    title : UI UX Design & Creation Graphic
+    content : Nous mettons à votre disposition une équipe de designers pour réaliser vos projets afin de travailler l'image de votre entreprise..

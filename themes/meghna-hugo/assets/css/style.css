@@ -513,7 +513,7 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
-  background-color: #1d2024;
+  background-color: #083358;
   width: 100%;
   margin-bottom: 0;
 }
@@ -528,7 +528,7 @@ a:hover {
 
 .navigation .navigation-menu li a {
   font-size: 16px;
-  color: #737f8a;
+  color: white;
 }
 
 .navigation .navigation-menu li a:hover,

@@ -1,7 +1,7 @@
 baseURL = "https://agencemadec.netlify.com/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Agence MADEC"
+title = "Agence MADEC1"
 theme = "meghna-hugo"
 summaryLength = 10
 
@@ -62,7 +62,7 @@ custom_css = ["css/custom.css"]
     # Banner Section
     [params.banner]
     enable = true
-    bgImage = "images/slider/i-am-madec"
+    bgImage = "images/slider/i-am-madec.jpg"
     icon = "tf-ion-play"
     heading = "MADEC"
     content= "Nous sommes une agence digitale à la hauteur de vos attentes"

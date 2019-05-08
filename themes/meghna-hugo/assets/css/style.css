@@ -573,7 +573,7 @@ a:hover {
 
 .hero-area {
   background-size: cover;
-  height: 80vh;
+  height: 70vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -637,6 +637,17 @@ a:hover {
   padding: 14px 50px;
   font-size: 18px;
   font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.btn-hero-area {
+  margin-top: 40px;	
+  color: #083358;
+  padding: 14px 50px;
+  font-size: 20px;
+  border-color: red;
+  background-color:white;
   font-weight: bold;
   letter-spacing: 1px;
 }

@@ -190,6 +190,10 @@ a:hover {
   background-color:grey;
 }
 
+.bg-foot {
+  background-color:#083358;
+}
+
 .bg-dark {
   background: #242930;
 }

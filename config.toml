@@ -1,7 +1,7 @@
 baseURL = "https://agencemadec.netlify.com/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Meghna"
+title = "Agence MADEC"
 theme = "meghna-hugo"
 summaryLength = 10
 
@@ -13,27 +13,27 @@ summaryLength = 10
 # Menu
 [menu]
     [[menu.nav]]
-    name = "About Us"
+    name = "A Propos"
     URL = "about"
     weight = 2
 
     [[menu.nav]]
-    name = "Service"
+    name = "Services"
     URL = "services"
     weight = 3
 
     [[menu.nav]]
-    name = "Portfolio"
+    name = "Réferences"
     URL = "portfolio"
     weight = 4
 
     [[menu.nav]]
-    name = "Team"
+    name = "L'Equipe"
     URL = "our-team"
     weight = 5
 
     [[menu.nav]]
-    name = "Pricing"
+    name = "Libre Blanc"
     URL = "pricing"
     weight = 6
 
@@ -49,11 +49,11 @@ summaryLength = 10
 
 # Site params
 [params]
-home= "Home"
-logo = "images/logo.png"
+home= "Accueil"
+logo = "images/logos/logo_madec.png"
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 # Meta data
-description = "Responsive Multipurpose Parallax HTML5 Template"
+description = "Madec Agence à la hauteur de vos attentes"
 author = "Themefisher"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
@@ -62,13 +62,13 @@ custom_css = ["css/custom.css"]
     # Banner Section
     [params.banner]
     enable = true
-    bgImage = "images/slider/hero-area.jpg"
+    bgImage = "images/slider/i-am-madec"
     icon = "tf-ion-play"
-    heading = "Experience the new reality"
-    content= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
+    heading = "MADEC"
+    content= "Nous sommes une agence digitale à la hauteur de vos attentes"
     btn = true
-    btnText="Explore Us"
-    btnURL="#services"
+    btnText="CONTACTEZ-NOUS"
+    btnURL="#contact-us"
 
     # call to action
     [params.cta]

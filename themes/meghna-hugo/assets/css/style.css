@@ -641,16 +641,28 @@ a:hover {
   letter-spacing: 1px;
 }
 
+/*=================================== Bouton personnalisé =============*/
 .btn-hero-area {
-  margin-top: 40px;	
-  color: #083358;
+  margin-top: 50px;	
+  color: #0f4471;
   padding: 14px 50px;
   font-size: 20px;
-  border-color: red;
+  border: 2px solid red;
   background-color:white;
   font-weight: bold;
   letter-spacing: 1px;
+  border-radius: 0;
+  transition: all .3s ease-in 0s;
 }
+
+.btn-hero-area:hover,
+.btn-hero-area:focus {
+  background-color: purple;
+  border: 2 px solid purple;
+  color: #fff;
+}
+
+
 
 .hero-area-video {
   height: 100vh;

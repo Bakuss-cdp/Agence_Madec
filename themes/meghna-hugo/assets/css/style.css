@@ -1290,6 +1290,9 @@ a:hover {
 
 .member-meta {
   padding: 15px;
+  background-color:#083358;
+  color:white;
+  text-align:center;
 }
 
 .member-meta h4 {
@@ -1297,7 +1300,7 @@ a:hover {
 }
 
 .member-meta span {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 /*=================================================================

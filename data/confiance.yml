@@ -1,0 +1,21 @@
+enable : true
+heading : Ils nous font
+headingSpan : Confiance
+teamMember :
+  - image : images/partenaires/logo_partenaires-2.jpg
+      
+  - image : images/partenaires/logo_partenaires.jpg
+      
+  - image : images/partenaires/logo_partenaires-2.jpg
+
+  - image : images/partenaires/logo_partenaires.jpg
+  
+  - image : images/partenaires/logo_partenaires.jpg
+  
+  - image : images/partenaires/logo_partenaires-2.jpg
+  
+  - image : images/partenaires/logo_partenaires.jpg
+  
+  - image : images/partenaires/logo_partenaires-2.jpg
+  
+  - image : images/partenaires/logo_partenaires.jpg

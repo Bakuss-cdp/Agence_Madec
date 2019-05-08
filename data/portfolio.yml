@@ -1,76 +1,56 @@
 enable : true
 heading : Quelques
-headingSpan : Realisations
+headingSpan : Réalisations
 filterList :
-  - filterType : photography
-    filterTitle : Photography
+  - filterType : marketing
+    filterTitle : Digital Marketing
     
   - filterType : design
-    filterTitle : Design
+    filterTitle : Design Création
     
   - filterType : development
-    filterTitle : Development
+    filterTitle : Development Web
 
 portfolioItem :
   - types : design
-    image : images/portfolio/portfolio-1.jpg
+    image : images/portfolio/Reaslisation_1.jpg
     icon : tf-ion-android-search
     URL : #
-    title : Tag Design
+    title : Bon Plat Restaurant
     description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
     
-  - types : development
-    image : images/portfolio/portfolio-2.jpg
+  - types : development             design creation 
+    image : images/portfolio/Reaslisation_2.jpg
     icon : tf-ion-android-search
     URL : #
-    title : Sound system
+    title : Attack Groupe Automobile
     description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
     
   - types : design, development
-    image : images/portfolio/portfolio-3.jpg
+    image : images/portfolio/Reaslisation_3.jpg
     icon : tf-ion-android-search
     URL : #
-    title : Clock Product
+    title : Mix Consmetic
     description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
     
-  - types : photography, development
-    image : images/portfolio/portfolio-4.jpg
+  - types : marketing, development
+    image : images/portfolio/Reaslisation_1.jpg
     icon : tf-ion-android-search
     URL : #
-    title : Bottol Label
+    title : Shop Deluxe
     description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
     
   - types : design
-    image : images/portfolio/portfolio-5.jpg
+    image : images/portfolio/Reaslisation_2.jpg
     icon : tf-ion-android-search
     URL : #
-    title : Shopping Bag
+    title : Chaussures Chez Aly Baba
     description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
     
-  - types : photography
-    image : images/portfolio/portfolio-6.jpg
+  - types : marketing
+    image : images/portfolio/Reaslisation_3.jpg
     icon : tf-ion-android-search
     URL : #
-    title : Tag Design
+    title : Madec Agence
     description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
     
-  - types : development
-    image : images/portfolio/portfolio-7.jpg
-    icon : tf-ion-android-search
-    URL : #
-    title : Business Card
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
-    
-  - types : design, development
-    image : images/portfolio/portfolio-8.jpg
-    icon : tf-ion-android-search
-    URL : #
-    title : Stationary Design
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
-    
-  - types : design, photography
-    image : images/portfolio/portfolio-2.jpg
-    icon : tf-ion-android-search
-    URL : #
-    title : Tag Design
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!

@@ -11,7 +11,7 @@
                 </div>
             </div>
             {{"<!-- /section title -->" | safeHTML}}
-
+         <div class="logo_partenaires">
             {{ range .Site.Data.confiance.teamMember}}
             {{"<!-- Partenaire de Confiance -->" | safeHTML}}
             <div class="logo_partenaire">
@@ -19,13 +19,14 @@
 					<div class="team-member">
 						<div class="member-photo">
 							{{"<!-- member logo -->" | safeHTML}}
-							<img class="img-fluid" src="{{ .image | absURL }}" alt="Madec Member">
+							<img class="img-fluid" src="{{ .image | absURL }}" alt="Madec Clients">
 						</div>
 					</div>
 				</div>
 			</div>
             {{"<!-- end team member -->" | safeHTML}}
             {{ end }}
+		  </div>	
         </div>
     </div>
 </section>

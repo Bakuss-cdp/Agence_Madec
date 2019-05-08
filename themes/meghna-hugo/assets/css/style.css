@@ -2448,13 +2448,19 @@ background-color: #FF6600
 .resp-sharing-button--telegram:hover {
   background-color: #4B97D1;}
 
+.logo_partenaires
+{
+  width:100%;
+  height:140px;  
+  background-color:#083358;
+  display: flex;
+  padding-top:11px;
+}  
+
   .logo_partenaire
 {
-  display: flex;
   width:10%;
   margin-left:1%;
-  padding:5px;
-  border:1px solid blue;
 }  
 
 .footliner

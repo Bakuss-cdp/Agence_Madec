@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  background-color: #353b43;
+  background-color: white;
   font-family: "Anaheim", sans-serif;
   color: #737f8a;
   -webkit-font-smoothing: antialiased;
@@ -2413,4 +2413,17 @@ background-color: #FF6600
 .resp-sharing-button--telegram:hover {
   background-color: #4B97D1;}
 
+  .logo_partenaire
+{
+  display: flex;
+  width:10%;
+  margin-left:1%;
+  padding:5px;
+  border:1px solid blue;
+}  
+
+.footliner
+{   width:100%;
+	border-top: 4px solid red;
+}  
 /*# sourceMappingURL=maps/style.css.map */

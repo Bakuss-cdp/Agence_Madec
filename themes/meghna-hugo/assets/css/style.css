@@ -2462,3 +2462,29 @@ background-color: #FF6600
 	border-top: 4px solid red;
 }  
 /*# sourceMappingURL=maps/style.css.map */
+
+
+.carre-bleu {
+  background-color: #083358;
+  color : white;
+  display: flex; /* contexte sur le parent */
+  flex-direction: column; /* direction d'affichage verticale */
+  justify-content: center; /* alignement vertical */
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-block-end: 20px;
+  margin: 5px;
+  height: 200px;
+  width: 200px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.bouton-blog {
+  float: right;
+}

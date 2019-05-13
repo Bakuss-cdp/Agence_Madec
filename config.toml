@@ -44,7 +44,7 @@ summaryLength = 10
 
     [[menu.nav]]
     name = "Contact"
-    URL = "contact-us"
+    URL = "contact/contact"
     weight = 8
 
 # Site params

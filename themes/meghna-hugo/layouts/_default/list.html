@@ -7,17 +7,14 @@
     <div class="container">
         <div class="row">
             
-            <div class="col-lg-10">
                 {{ range .Data.Pages }}
                 {{"<!-- single blog post -->" | safeHTML}}
                 {{ .Render "article" }}
                 {{"<!-- /single blog post -->" | safeHTML}}
                 {{ end }}
-            </div>
+
             
-            <div class="col-lg-2">
-                coucou
-            </div>
+                
             
         </div>
     </div>

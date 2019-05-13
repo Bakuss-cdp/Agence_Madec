@@ -5,10 +5,10 @@
             {{ with .Params.image }}<img src="{{ . | absURL }}" alt="post-image" class="img-fluid">{{ end }}
         </div>
 
-        <div class="content">
+        <div class="content clearfix">
             <h3><a href="{{ .Permalink }}">{{ with .Params.name}}{{.}}{{else}}{{ .Title }}{{end}}</a></h3>
             <p>{{ .Summary }}</p>
-            <a class="btn btn-transparent" href="{{ .Permalink }}">{{ i18n "readMore" }}</a>
+            <a class="btn btn-transparent bouton-blog" href="{{ .Permalink }}">{{ i18n "readMore" }}</a>
         </div>
     </div>
 </article>

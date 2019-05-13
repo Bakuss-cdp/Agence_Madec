@@ -2,6 +2,26 @@
 
 {{ partial "navigation.html" . }}
 
-
+<section class="section section-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <a href="/devis/devis" class="carre-bleu mb-5 mx-auto">
+                    <i class="fab fa-wpforms fa-4x mb-3"></i>
+                    <p>Demande de devis</p>
+                </a>
+            </div>
+            <div class="col-lg-6">
+                <a href="/contactform/contactform" class="carre-bleu mb-5 mx-auto">
+                    <i class="fas fa-envelope fa-4x mb-3"></i>
+                    <p>Nous contacter</p>
+                </a>
+            </div>
+            <div class="col-lg-12">
+                {{ partial "map.html" . }}
+            </div>
+        </div>
+    </div>
+</section>
 
 {{ end }}

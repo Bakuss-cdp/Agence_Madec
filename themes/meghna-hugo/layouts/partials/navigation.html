@@ -21,9 +21,9 @@
                         <ul class="navbar-nav ml-auto navigation-menu">
                                 <li class="nav-item"><a class="nav-link" data-scroll href="#body">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
                                 {{ range $.Site.Menus.nav }}
-                                <li class="nav-item"><a class="nav-link" data-scroll href="#{{ .URL }}">{{ .Name }}</a></li>
-                                {{ end }}
-                        </ul>
+                                <li class="nav-item"><a class="nav-link" data-scroll href="{{ .URL }}">{{ .Name }}</a></li>
+								{{ end }}
+                        </ul>		
                 </div>
                 {{ else }}
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">

@@ -1,15 +1,19 @@
 enable : true
-heading : About
-headingSpan : Us
+heading : Qui Sommes-
+headingSpan : Nous?
+image : images/about/presidente_madec.jpg
+title : Une Agence Digitale.
+description : "Nous mobilisons l'humain et la technolonogie pour atteindre nos objectifs dans chaque projet"
+description2 : L'agence Madec est le fruit d'une collaboration d'une équipe de passionnées aux compétences diverses.
+               Spécialisés dans differents domaines comme le web marketing, le dévéloppement web, et le design, leur complémentarité fait la force de l'agence.
+               il est en effet impossible de repondre à la demande d'une clientèle dans une société en pleine matation.
+
+               Notre agence vous guide, vous soutient dans la création de vos projets, qu'ils soient du domaine du e-commerce, du digital marketing, du référencement et toute autre activité en relation avec votre visibilité Internet.
 aboutItem : 
-- icon : tf-tools
-  title : We're Creative
-  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+- title : MATHILDE JEAN
+  content : Présidente
+ 
+Item : 
+- title : Agence MADEC
+  content : Votre satisfaction est notre priorité. Nous créons la qualité, en tenant compte de votre délai et votre budget.
 
-- icon : tf-strategy
-  title : We're Professional
-  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
-
-- icon : tf-anchor2
-  title : We're Genius
-  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.

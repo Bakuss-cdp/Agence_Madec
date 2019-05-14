@@ -1,0 +1,70 @@
+
+{{ if .Site.Data.newsletter.enable}}
+{{"<!-- Start Newsletter Section -->" | safeHTML}}
+<section class="bg-one news section" id="about">
+    <div class="container">
+        <div class="row">
+                <div class="newsletter">
+                    {{with .Site.Data.newsletter.title}} <h2>{{ . }}</h2> {{ end }}
+					{{with .Site.Data.newsletter.description}} <p>{{ . }}</p> {{ end }}
+                    {{with .Site.Data.newsletter.description2}} <p>{{ . }}</p> {{ end }} 
+                    {{with .Site.Data.newsletter.description3}} <p>{{ . }}</p> {{ end }} 					
+						
+                        <div class="row">
+						 <div class="col-lg-3 padding-0 ">
+                         </div>
+						 <div class="col-lg-6 padding-0 ">   
+							<form id="contact-form" class="form-meghna" method="post" action="sendmail.php" role="form">
+							    <div class="row">
+								     <div class="col-lg-9 padding-0 ">
+											<div class="form-group">
+												<input type="email" placeholder="Entrez votre adresse Email" class="news-email" name="email" id="email">
+											</div>
+											<div id="mail-success" class="success">
+												Merci de votre inscription!
+											</div>
+											<div id="mail-fail" class="error">
+												Desolé, votre email n'est pas ajouté!
+											</div>
+                                      </div>
+								 
+								      <div class="col-lg-3 padding-0 ">
+											<div id="cf-submit">
+												<input type="submit" id="abonner-submit" class="abonner-submit" value="S'ABONNER">
+											</div>
+									  </div>	
+                                </div>
+							</form>
+						 </div>	
+							<div class="col-lg-3 padding-0 ">
+                            </div>
+							
+							
+						</div>
+						
+				</div>
+		</div>
+        
+        <div class="row">		 
+		         <div class="parlons-en">
+                    {{ range .Site.Data.newsletter.newsletterItem }}
+                        {{with .title}} <h4 class="media-heading">{{ . }}</h4>{{ end }}
+                        {{ with .first}} <p>{{ . }}</p> {{ end }}
+					    {{ with .second}} <p>{{ . }}</p> {{ end }}
+					    {{ with .third}} <p>{{ . }}</p> {{ end }}
+                    {{ end }}
+
+					{{ if .Site.Params.banner.enable }}
+							<div class="inscription_newsletter">			
+							   {{ if .Site.Params.banner.btn}}
+								<a data-scroll href="{{ .Site.Params.banner.btnURL}}" class="btn btn-hero-area">{{ .Site.Params.banner.btnText}}</a>
+								{{ end }}
+							</div>
+					{{end}}
+
+				</div>
+        </div>
+  </div>
+</section>
+{{"<!-- /newsletter -->" | safeHTML}}
+{{ end }}

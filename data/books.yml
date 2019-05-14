@@ -1,0 +1,33 @@
+enable : true
+heading : Livres
+headingSpan : Blancs
+livresBlancs :
+  - image : images/books/livre.jpg
+    name : Hansel et Gretel
+    designation : 
+    description :  
+      
+  - image : images/books/livre.jpg
+    name : Henry et Bineta
+    designation : 
+    description :    
+      
+  - image : images/books/livre.jpg
+    name : Hansel et Gretel
+    designation : 
+    description :  
+      
+  - image : images/books/livre.jpg
+    name : Henry et Bineta
+    designation : 
+    description : 
+
+  - image : images/books/livre.jpg
+    name : Hansel et Gretel
+    designation : 
+    description :  
+   
+  - image : images/books/livre.jpg
+    name : Henry et Bineta
+    designation : 
+    description : 

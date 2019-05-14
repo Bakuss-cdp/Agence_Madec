@@ -1,0 +1,10 @@
+enable : true
+title : Abonnez-vous à notre newsletter
+description : Vous recevrez en exclusivité  
+description2 : les actualité en matière de 
+description3 : Design, Dévéloppement et Marketing
+newsletterItem : 
+- title : Parlons-en
+  first : Vous voulez créer un site?  
+  second  : Vous voulez définir votre stratégie?
+  third   : Vous voulez améliorer l'image de votre entreprise?

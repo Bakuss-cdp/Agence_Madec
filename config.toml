@@ -12,39 +12,40 @@ summaryLength = 10
 
 # Menu
 [menu]
-    [[menu.nav]]
+    [[menu.nav ]]
     name = "A Propos"
-    URL = "about"
+	title = "A propos de Madec"
+    URL = "/about/"
     weight = 2
 
     [[menu.nav]]
     name = "Services"
-    URL = "services"
+    URL = "#services"
     weight = 3
 
     [[menu.nav]]
     name = "Réferences"
-    URL = "portfolio"
+    URL = "#portfolio"
     weight = 4
 
     [[menu.nav]]
     name = "L'Equipe"
-    URL = "our-team"
+    URL = "#our-team"
     weight = 5
 
-    [[menu.nav]]
+    [[menu.nav ]]
     name = "Libre Blanc"
-    URL = "pricing"
+    URL = "/books/"
     weight = 6
 
-    [[menu.nav]]
+    [[menu.nav ]]
     name = "Blog"
-    URL = "blog"
+    URL = "/blog"
     weight = 7
 
-    [[menu.nav]]
+    [[menu.nav ]]
     name = "Contact"
-    URL = "contact-us"
+    URL = "/nous-contact/"
     weight = 8
 
 # Site params
@@ -63,12 +64,25 @@ custom_css = ["css/custom.css"]
     [params.banner]
     enable = true
     bgImage = "images/slider/i-am-madec.jpg"
+	bgImage-p = "images/slider/about_madec.jpg"
     icon = "tf-ion-play"
     heading = "MADEC"
     content= "Nous sommes une agence digitale à la hauteur de vos attentes"
     btn = true
     btnText="CONTACTEZ-NOUS"
     btnURL="#contact-us"
+	
+	
+	[params.bannerp]
+    enable = true
+	bgImage = "images/slider/about_madec.jpg"
+    icon = "tf-ion-play"
+    heading = "MADEC"
+    content= "Agence digitale"
+    btn = true
+    btnText="CONTACTEZ-NOUS"
+    btnURL="#contact-us"
+	
 
     # call to action
     [params.cta]

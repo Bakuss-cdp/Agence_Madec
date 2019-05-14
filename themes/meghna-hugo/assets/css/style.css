@@ -2701,6 +2701,15 @@ background-color: #FF6600
 	color:white;
 }
 
+.croix-fermer
+{
+	border:1px solid red;
+	background-color:red;
+	color:white;
+	float:right;
+	width:28px;
+	height:40px;
+}
 /*# sourceMappingURL=maps/style.css.map */
 
 

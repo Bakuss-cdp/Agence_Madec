@@ -1,5 +1,6 @@
 enable : true
 heading : TÉLÉCHARGER NOTRE LIVRE BLANC
+headingCross: x
 livresBlancs :
 -   name : Les Documents indispensables sur
     designation : Le Design

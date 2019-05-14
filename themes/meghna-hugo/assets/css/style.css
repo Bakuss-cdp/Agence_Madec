@@ -2690,10 +2690,17 @@ background-color: #FF6600
 	height:60px;
 	padding:10px 5px;
 	border-radius:8px 0 8px 0;
-	border:1px solid blue;
+	border:1px solid #083358;
 	margin:auto;
 	margin-bottom:25px;
+	background-color:#083358;
 }
+
+.book-choix h4
+{
+	color:white;
+}
+
 /*# sourceMappingURL=maps/style.css.map */
 
 

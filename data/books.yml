@@ -1,33 +1,10 @@
 enable : true
-heading : Livres
-headingSpan : Blancs
+heading : TÉLÉCHARGER NOTRE LIVRE BLANC
 livresBlancs :
-  - image : images/books/livre.jpg
-    name : Hansel et Gretel
-    designation : 
-    description :  
-      
-  - image : images/books/livre.jpg
-    name : Henry et Bineta
-    designation : 
-    description :    
-      
-  - image : images/books/livre.jpg
-    name : Hansel et Gretel
-    designation : 
-    description :  
-      
-  - image : images/books/livre.jpg
-    name : Henry et Bineta
-    designation : 
-    description : 
-
-  - image : images/books/livre.jpg
-    name : Hansel et Gretel
-    designation : 
-    description :  
-   
-  - image : images/books/livre.jpg
-    name : Henry et Bineta
-    designation : 
-    description : 
+-   name : Les Documents indispensables sur
+    designation : Le Design
+    designation1 : Le Délévoppement
+    designation2 : Le marketing	
+OuiNonLivre:	
+-   choix : OUI
+-   choix : NON

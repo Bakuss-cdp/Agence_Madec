@@ -2635,4 +2635,72 @@ background-color: #FF6600
 {   width:100%;
 	border-top: 4px solid red;
 }  
+
+.book-container
+{
+    width:70%; 
+	height:420px; 
+	margin:auto; 
+	border:2px solid #083358;
+	background-color:white;
+}
+
+.book-container h2
+{
+    width:100%; 
+	height:60px;
+    text-align:center;	
+	margin:auto; 
+	border:1px solid #083358;
+	background-color:#083358;
+	color:white;
+}
+
+.book-meta 
+{
+    width:100%; 
+	height:210px;
+	margin:auto; 
+	border-bottom:4px solid #083358;
+	background-color:white;
+}
+
+.book-meta h4
+{
+    width:70%; 
+	height:50px;
+    text-align:center;	
+	margin:auto; 
+	margin-top:10px;
+	background-color:#white;
+	color:#083358;
+	font-weight:bold;
+}
+
+.book-meta p
+{
+   color:#083358;
+   text-align:center;
+   font-weight:bold;
+}
+
+.book-choix
+{
+	width:60%;
+	height:60px;
+	padding:10px 5px;
+	border-radius:8px 0 8px 0;
+	border:1px solid blue;
+	margin:auto;
+	margin-bottom:25px;
+}
 /*# sourceMappingURL=maps/style.css.map */
+
+
+
+
+
+
+
+
+

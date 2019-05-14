@@ -1,7 +1,49 @@
 {{ if .Site.Data.books.enable}}
 {{"<!-- Start Books -->" | safeHTML}}
 <section id="white-books" class="bg-one section">
-    
+    <div class="book-container">
+        <div class="row">
+            <div class="col-lg-12">
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center">
+                    <h2>{{ with .Site.Data.books.heading }} {{ . }} {{ end }}</h2>
+						  
+						{{ range .Site.Data.books.livresBlancs}}
+						{{"<!-- Les libres Blancs -->" | safeHTML}}
+								
+										{{"<!-- books references & designation -->" | safeHTML}}
+										<div class="book-meta">
+											<h4>{{ .name }}</h4>
+											<p>{{ .designation }}</p>
+                                            <p>{{ .designation1 }}</p>
+                                            <p>{{ .designation2 }}</p>											
+										</div>
+								
+						{{"<!-- end white books -->" | safeHTML}}
+						{{ end }}
+
+                </div>
+            </div>
+            {{"<!-- /section title -->" | safeHTML}}
+			
+			<div class="testy-all" style="border-bottom:2px solid blue;">
+			</div>
+			
+            {{ range .Site.Data.books.OuiNonLivre}}
+            {{"<!-- Accepter ou Refuser le livre -->" | safeHTML}}
+					<div class="col-lg-6 col-md-6 col-12 wow fadeInDown" data-wow-duration="500ms">
+						<div class="white-book text-center">
+							{{"<!-- Yes or No -->" | safeHTML}}
+							<div class="book-choix">
+								<h4>{{ .choix }}</h4>
+								    
+							</div>
+						</div>
+					</div>
+            {{"<!-- end white books -->" | safeHTML}}
+            {{ end }}
+        </div>
+    </div>
 </section>
 {{"<!-- /books -->" | safeHTML}}
 {{ end }}

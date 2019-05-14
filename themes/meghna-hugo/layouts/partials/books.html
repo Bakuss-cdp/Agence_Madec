@@ -1,13 +1,14 @@
 {{ if .Site.Data.books.enable}}
 {{"<!-- Start Books -->" | safeHTML}}
 <section id="white-books" class="bg-one section">
-    <div class="book-container">
+    <div id="book-container" class="book-container">
         <div class="row">
             <div class="col-lg-12">
                 {{"<!-- section title -->" | safeHTML}}
                 <div class="title text-center">
                     <h2>{{ with .Site.Data.books.heading }} {{ . }} {{ end }}  
-					<span id="croix-fermer" class="croix-fermer"> {{ with .Site.Data.books.headingCross }} {{ . }} {{ end }}</span>
+					<span onclick="document.getElementById('book-container').style.display='none'" 
+         class="croix-fermer"> {{ with .Site.Data.books.headingCross }} {{ . }} {{ end }}</span>
 					</h2>
 						  
 						{{ range .Site.Data.books.livresBlancs}}

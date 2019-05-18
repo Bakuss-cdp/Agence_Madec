@@ -4,8 +4,8 @@
     <div class="block">
         {{with .Site.Params.banner.icon}}
         {{ end }}
-       {{with .Site.Params.banner.heading}} <h1>{{ . }}</h1>{{ end }}
-       {{with .Site.Params.banner.content}} <p>{{ . }}</p> {{ end }}
+       {{with .Site.Params.bannerp.heading}} <h1>{{ . }}</h1>{{ end }}
+       {{with .Site.Params.bannerp.content}} <p>{{ . }}</p> {{ end }}
        {{ if .Site.Params.banner.btn}}
         <a data-scroll href="{{ .Site.Params.banner.btnURL}}" class="btn btn-hero-area">{{ .Site.Params.banner.btnText}}</a>
         {{ end }}

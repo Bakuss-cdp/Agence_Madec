@@ -1,0 +1,15 @@
+{{ if .Site.Params.banner.enable }}
+{{"<!-- Welcome Slider-->" | safeHTML}}
+<section class="hero-area" style='background-image: url("{{ .Site.Params.bannerr.bgImage | absURL }}");'>
+    <div class="block">
+        {{with .Site.Params.banners.icon}}
+        {{ end }}
+       {{with .Site.Params.bannerr.heading}} <h1>{{ . }}</h1>{{ end }}
+       {{with .Site.Params.bannerr.content}} <p>{{ . }}</p> {{ end }}
+       {{ if .Site.Params.bannerr.btn}}
+        <a data-scroll href="{{ .Site.Params.banner.btnURL}}" class="btn btn-hero-area">{{ .Site.Params.bannerr.btnText}}</a>
+        {{ end }}
+    </div>
+</section>
+{{"<!-- /Welcome Slider-->" | safeHTML}}
+{{end}}

@@ -1,0 +1,32 @@
+enable : true
+heading : Nos 
+headingSpan : Clients
+referencesItem :
+  - image : images/portfolio/Reaslisation_7.jpg
+    title : Le bon plat RESTAURANT
+    content : Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes 
+    siteweb : Voir le siteweb du Restaurant
+    URL : http://www.restaurantbon.fr/
+
+  - image : images/portfolio/Reaslisation_4.jpg
+    title : Group Attack AUTOMIBILE
+    content : Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes 
+    siteweb : Voir le siteweb Group Attack AUTOMIBILE
+    URL : https://www.groupe-autosport.com/blog/type-r-time-attack.html
+
+  - image : images/portfolio/Reaslisation_5.jpg
+    title : Mix Consmetic MODE & BEAUTE
+    content : Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes 
+    siteweb : Voir le siteweb Mix Consmetic
+    URL : https://www.wish.com/
+
+  - image : images/portfolio/Reaslisation_8.jpg
+    title : Macôn villages COOPERATIVE VITICOLE
+    content : Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes Textes 
+    siteweb : Voir le siteweb Macôn villages
+    URL : http://lesvigneronsdige.com/
+
+referencesItem2 : 
+- first : De nouvels objectif en vue?  
+  second  : N'hesitez pas à nous confier vos projets
+  third   : Pour toute demande de devis ou de conseils

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html class="no-js" lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}" scroll-behavior="smooth">
     {{- partial "head.html" . -}}
-    <body id="body" data-spy="scroll" data-target=".navbar" data-offset="52">
-        <div id="content">
+    <body id="body" data-spy="scroll" data-target=".navbar" data-offset="52" onload="window.location.href = '#white-books';">
+        <div id="content">		
         {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}

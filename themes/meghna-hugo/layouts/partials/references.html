@@ -1,0 +1,66 @@
+{{ if .Site.Data.references.enable}}
+{{"<!-- service -->" | safeHTML }}
+<section id="references" class="bg-one section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                {{"<!-- section title -->" | safeHTML }}
+                <div class="title text-center wow fadeIn" data-wow-duration="500ms">
+                    <h2>{{ with .Site.Data.references.heading }} {{ . }} {{ end }}<span class="color">{{ with .Site.Data.references.headingSpan }} {{ . }} {{ end }}</span></h2>
+                    <div class="border-meghna"></div>
+                </div>
+            </div>
+            {{"<!-- /section title -->" | safeHTML }}
+			
+        <div class="references-gblock">
+		    <div class="row">
+			{{ range .Site.Data.references.referencesItem}}
+            {{"<!-- references Item -->" | safeHTML }}
+                <div class="col-lg-6 col-md-6 col-12 padding-0 ">
+				
+                    <div class="references-block  text-center">
+					
+                        <div class="references-images-titre">
+                            <img class="img-fluid" src="{{ .image | absURL}}" alt="Nos Clients">
+							<h3>{{ .title }}</h3>
+                        </div>
+						
+						
+						<div class="references-content text-center">                    
+                            <p>{{ .content }}</p>
+							<p><a href="{{ .URL | absURL }}" target="__blank">{{ .siteweb }}</a></p>
+				        </div>
+
+                    </div>
+					
+					
+				</div>	
+            {{"<!-- Nos Services font blanc -->" | safeHTML }}
+            {{ end }}
+		 </div>	
+		</div>	
+       </div>
+	   
+	   <div class="row">		 
+		         <div class="parlons-en">
+                    {{ range .Site.Data.references.referencesItem2 }}
+                        {{ with .first}} <p>{{ . }}</p> {{ end }}
+					    {{ with .second}} <p>{{ . }}</p> {{ end }}
+					    {{ with .third}} <p>{{ . }}</p> {{ end }}
+                    {{ end }}
+
+					{{ if .Site.Params.banner.enable }}
+							<div class="inscription_newsletter">			
+							   {{ if .Site.Params.banner.btn}}
+								<a data-scroll href="{{ .Site.Params.banner.btnURL}}" class="btn btn-hero-area">{{ .Site.Params.banner.btnText}}</a>
+								{{ end }}
+							</div>
+					{{end}}
+
+				</div>
+        </div>
+	   
+    </div>
+</section>
+{{"<!-- /service -->" | safeHTML }}
+{{ end }}

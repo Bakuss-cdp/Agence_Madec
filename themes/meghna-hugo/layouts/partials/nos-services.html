@@ -1,0 +1,113 @@
+{{ if .Site.Data.nosservices.enable}}
+{{"<!-- Start Nos Services Section -->" | safeHTML}}
+<section class="bg-one nos-services section" id="nos-services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+                    <h2>{{ .Site.Data.nosservices.heading}} <span class="color">{{ .Site.Data.nosservices.headingSpan}}</span> </h2>
+                    <div class="border-meghna"></div>
+                </div>
+            </div>
+            {{"<!-- /section title -->" | safeHTML}}
+           
+		   {{ range .Site.Data.nosservices.serviceItem}}
+            {{"<!-- Nos Services font blanc-->" | safeHTML }}
+                <div class="col-lg-6 col-md-6 col-12 padding-0 ">
+                    <div class="services-block services-icon text-center">
+                        <i class="{{ .icon }}"></i>
+                    </div>
+				</div>	
+					
+				<div class="col-lg-6 padding-0 ">
+				  <div class="services-block text-center">
+                    <h3>{{ .title }}</h3>
+                    <p>{{ .content }}</p>
+				  </div>	
+                </div>
+            {{"<!-- Nos Services font blanc -->" | safeHTML }}
+            {{ end }}
+			
+			
+			
+			{{ range .Site.Data.nosservices.serviceItem2}}
+            {{"<!-- Nos Services font bleu-->" | safeHTML }}
+            
+			    <div class="col-lg-6 padding-0 ">
+				  <div class="services-block2 text-center">
+                    <h3>{{ .title }}</h3>
+                    <p>{{ .content }}</p>
+				  </div>	
+                </div>
+				
+                <div class="col-lg-6 col-md-6 col-12 padding-0 ">
+                    <div class="services-block2 services-icon text-center">
+                        <i class="{{ .icon }}"></i>
+                    </div>
+				</div>	
+            {{"<!-- Nos Services font bleu -->" | safeHTML }}
+            {{ end }}
+			
+			{{ range .Site.Data.nosservices.serviceItem3}}
+            {{"<!-- Nos Services font blanc-->" | safeHTML }}
+                <div class="col-lg-6 col-md-6 col-12 padding-0 ">
+                    <div class="services-block services-icon text-center">
+                        <i class="{{ .icon }}"></i>
+                    </div>
+				</div>	
+					
+				<div class="col-lg-6 padding-0 ">
+				  <div class="services-block text-center">
+                    <h3>{{ .title }}</h3>
+                    <p>{{ .content }}</p>
+				  </div>	
+                </div>
+            {{"<!-- Nos Services font blanc -->" | safeHTML }}
+            {{ end }}
+			
+			{{ range .Site.Data.nosservices.serviceItem4}}
+            {{"<!-- Nos Services font bleu-->" | safeHTML }}
+            
+			    <div class="col-lg-6 padding-0 ">
+				  <div class="services-block2 text-center">
+                    <h3>{{ .title }}</h3>
+                    <p>{{ .content }}</p>
+				  </div>	
+                </div>
+				
+                <div class="col-lg-6 col-md-6 col-12 padding-0 ">
+                    <div class="services-block2 services-icon text-center">
+                        <i class="{{ .icon }}"></i>
+                    </div>
+				</div>	
+            {{"<!-- Nos Services font bleu -->" | safeHTML }}
+            {{ end }}
+		
+	</div>	    
+		
+		{{ partial "portfolio.html" . }}
+		
+		<div class="row">		 
+		         <div class="parlons-en">
+                    {{ range .Site.Data.newsletter.newsletterItem }}
+                        {{with .title}} <h4 class="media-heading">{{ . }}</h4>{{ end }}
+                        {{ with .first}} <p>{{ . }}</p> {{ end }}
+					    {{ with .second}} <p>{{ . }}</p> {{ end }}
+					    {{ with .third}} <p>{{ . }}</p> {{ end }}
+                    {{ end }}
+
+					{{ if .Site.Params.banner.enable }}
+							<div class="inscription_newsletter">			
+							   {{ if .Site.Params.banner.btn}}
+								<a data-scroll href="{{ .Site.Params.banner.btnURL}}" class="btn btn-hero-area">{{ .Site.Params.banner.btnText}}</a>
+								{{ end }}
+							</div>
+					{{end}}
+
+				</div>
+        </div>
+    </div>
+</section>
+{{"<!-- /about -->" | safeHTML}}
+{{ end }}

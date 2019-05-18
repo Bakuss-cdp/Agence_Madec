@@ -1280,6 +1280,77 @@ a:hover {
 /*=================================================================
   Services section
 ==================================================================*/
+.services-block {
+  border: 2px solid #fff;
+  background-color:white;
+  padding-bottom:0px;
+  height:250px;
+  width:100%;
+  color: #083358;
+  padding-top:20px;
+}
+
+.services-block2 {
+  border: 2px solid #083358;
+  background-color:#083358;
+  padding-bottom:0px;
+  height:250px;
+  width:100%;
+  color: white;
+}
+
+.services-icon {
+  color:red;
+  font-size:96px;
+  padding-top:55px;
+}
+
+.services-block h3 {
+  color:#083358;
+  font-size:20px;
+  font-weight:bold;
+  text-align:center;
+  width:90%;
+  margin:auto;
+  margin-bottom:2px;
+  margin-bottom:15px;
+  height:80px;
+  padding-top:12px;
+}
+
+.services-block2 h3 {
+  color:white;
+  font-size:20px;
+  font-weight:bold;
+  text-align:center;
+  width:90%;
+  margin:auto;
+  margin-bottom:2px;
+  margin-bottom:15px;
+  height:80px;
+  padding-top:12px;
+}
+
+.services-block p
+{
+  color:#083358;
+  text-align:center;
+  width:30%;
+  margin:auto;
+  margin-top:-12px;
+  font-weight:bold;
+}
+
+.services-block2 p
+{
+  color:white;
+  text-align:center;
+   width:30%;
+   margin:auto;
+   margin-top:-12px;
+   font-weight:bold;
+}
+
 .service-block {
   border: 1px solid white;
   margin-bottom: 40px;
@@ -1379,6 +1450,86 @@ a:hover {
 .skill-bar .progress .progress-bar {
   background: #57cbcc;
 }
+
+/*=================================================================
+  Nos references 
+==================================================================*/
+
+.references-gblock
+{
+	width:80%;
+	margin:auto;
+	background-color:#fff;
+	border:1px solid #fff;
+	margin-bottom:20px;
+	height:auto;
+	padding-bottom:1px;
+}
+
+.references-block
+{
+	width:95%;
+	height:600px;
+	border:1px solid white;
+	padding:1px;
+	margin:auto;
+	margin-bottom:50px;
+}
+
+.references-images-titre
+{
+	width:99%;
+	height:320px;
+	border:1px solid white;
+	margin:auto;
+	margin-bottom:10px;
+}
+
+.references-images-titre img
+{
+	width:100%;
+	height:240px;
+	
+}
+
+
+.references-images-titre h3
+{
+	width:100%;
+	height:80px;
+	border:1px solid #083358;
+	text-align:center;
+	background-color:#083358;
+	color:#fff;
+	padding-top:12px;
+}
+
+.references-content
+{
+	width:99%;
+	height:270px;
+	border:1px solid blue;
+	border:1px solid purple;
+	text-align:justify;
+	margin:auto;
+	color:black;
+	background-color:white;
+	padding:21px;
+}
+
+.references-content p 
+{
+    float:left;
+	margin-top:50px;
+}
+
+.references-content p a
+{
+	text-align:left;
+	color:purple;
+	font-weight:bold;
+}
+
 
 /*=================================================================
   Our Team
@@ -2636,13 +2787,59 @@ background-color: #FF6600
 	border-top: 4px solid red;
 }  
 
+/*-------------------------------- Le Libre Blanc --------------------*/
+#white-books
+{
+	position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom:0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+#white-books:target
+{
+	 opacity:1;
+    pointer-events: auto;
+}
+
+/*
+#book-container
+{
+	display:none;
+}
+
+.popup
+{
+	display:block;
+	z-index:250;
+	border:1px solid red;
+	position:absolute;
+	top:100px;
+	left:125px;	
+}
+*/
+
 .book-container
 {
     width:70%; 
 	height:420px; 
-	margin:auto; 
+	margin: 2% auto;
 	border:2px solid #083358;
-	background-color:white;
+    position: relative;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
 }
 
 .book-container h2
@@ -2701,7 +2898,7 @@ background-color: #FF6600
 	color:white;
 }
 
-.croix-fermer
+.croix-fermer-2
 {
 	border:1px solid red;
 	background-color:red;
@@ -2711,6 +2908,31 @@ background-color: #FF6600
 	height:40px;
 	cursor:pointer;
 }
+
+.croix-fermer
+	{
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	text-align: center;
+	float: right;
+	width: 112px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+    }
+	
+.croix-fermer:hover 
+	{ 
+	background: red; 
+	color:white;
+	}
+	
 /*# sourceMappingURL=maps/style.css.map */
 
 

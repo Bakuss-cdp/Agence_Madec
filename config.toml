@@ -20,23 +20,18 @@ summaryLength = 10
 
     [[menu.nav]]
     name = "Services"
-    URL = "#services"
+    URL = "/services/"
     weight = 3
 
     [[menu.nav]]
     name = "Réferences"
-    URL = "#portfolio"
+    URL = "/references/"
     weight = 4
 
     [[menu.nav]]
     name = "L'Equipe"
     URL = "#our-team"
     weight = 5
-
-    [[menu.nav ]]
-    name = "Libre Blanc"
-    URL = "/books/"
-    weight = 6
 
     [[menu.nav ]]
     name = "Blog"
@@ -82,6 +77,27 @@ custom_css = ["css/custom.css"]
     btn = true
     btnText="CONTACTEZ-NOUS"
     btnURL="#contact-us"
+	
+	
+	[params.banners]
+    enable = true
+	bgImage = "images/slider/services.jpg"
+    icon = "tf-ion-play"
+    heading = "SERVICES"
+    content= "Les services que proposons"
+    btn = true
+    btnText="Voir Nos réalisations"
+    btnURL="/references/"
+	
+	[params.bannerr]
+    enable = true
+	bgImage = "images/slider/references.jpg"
+    icon = "tf-ion-play"
+    heading = "NOS RÉFÉRENCES"
+    content= "Notre savoir faire à votre service"
+    btn = true
+    btnText="Voir Nos réalisations"
+    btnURL="/references/"
 	
 
     # call to action

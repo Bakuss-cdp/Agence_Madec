@@ -6,9 +6,10 @@
             <div class="col-lg-12">
                 {{"<!-- section title -->" | safeHTML}}
                 <div class="title text-center">
+				    <a href="#close" title="Fermer" class="croix-fermer">Fermer</a>
                     <h2>{{ with .Site.Data.books.heading }} {{ . }} {{ end }}  
-					<span onclick="document.getElementById('book-container').style.display='none'" 
-         class="croix-fermer"> {{ with .Site.Data.books.headingCross }} {{ . }} {{ end }}</span>
+					<!--<span onclick="document.getElementById('book-container').style.display='none'" 
+         class="croix-fermer"> {{ with .Site.Data.books.headingCross }} {{ . }} {{ end }}</span>-->
 					</h2>
 						  
 						{{ range .Site.Data.books.livresBlancs}}
@@ -39,6 +40,16 @@
 							{{"<!-- Yes or No -->" | safeHTML}}
 							<div class="book-choix">
 								<a href="#"><h4>{{ .choix }}</h4></a>
+								    
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-lg-6 col-md-6 col-12 wow fadeInDown" data-wow-duration="500ms">
+						<div class="white-book text-center">
+							{{"<!-- Yes or No -->" | safeHTML}}
+							<div class="book-choix">
+								<a href="#"><h4>NON</h4></a>
 								    
 							</div>
 						</div>

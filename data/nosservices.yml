@@ -1,0 +1,21 @@
+enable : true
+heading :  Nos 
+headingSpan : Services 
+serviceItem :
+  - icon : tf-globe
+    title : Stratégie & Consulting
+    content : Elaboration Stratégie Digitale  Audit      Veille      Conseils
+              
+serviceItem2 :  
+  - icon : tf-dial
+    title : Digital Marketing
+    content : Stratégie éditoriale          Référencement     E-Reputation     Campagne E-Mailing   Stratégie Media Sociaux	
+serviceItem3 :    
+  - icon : tf-ion-laptop
+    title : Développement
+    content : Création de site Internet     Refonte de site Internet     site E-commerce   Technologie:CMS Jamstack
+
+serviceItem4 : 
+  - icon : tf-genius
+    title : Design
+    content : UX Design         Design Web            LogoType

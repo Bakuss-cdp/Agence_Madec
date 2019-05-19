@@ -165,7 +165,7 @@ a:hover {
 }
 
 .color {
-  color: #6CB670;
+  color: #083358;
 }
 
 .sub-title {
@@ -413,11 +413,11 @@ a:hover {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 38px;
-  color: #fff;
+  color: #083358;
 }
 
 .title h2 span {
-  color: #57cbcc;
+  color: #083358;
 }
 
 .title p {
@@ -989,8 +989,28 @@ a:hover {
   margin-top: 20px;
 }
 
-.contact-us {
+.contact-us 
+{
   padding-top: 50px;
+}
+
+/* -------------------------------------------------- Formulaire de contact person------------------*/
+.fomulaire-contact
+{
+	background-color:white;
+	margin-bottom:20px;
+	border:1px solid white;
+	padding:12px;
+}
+
+.champs-obligatoire
+{
+	margin-top:90%;
+}
+
+.champs-etoile
+{
+	color:red;
 }
 
 @media (max-width: 768px)
@@ -1005,11 +1025,11 @@ a:hover {
 }
 
 .form-meghna .form-control {
-  background-color: transparent;
+  background-color: grey;
   border-radius: 0;
   padding: 5px 10px;
   color: #ddd;
-  border: 1px solid rgba(236, 239, 241, 0.07);
+  border: 2px solid dark-bg;
 }
 
 .form-meghna .form-control:focus
@@ -1031,7 +1051,7 @@ a:hover {
 
 #contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
-  background: #57cbcc;
+  background: #083358;
   padding: 12px 0;
   width: 100%;
   margin: 0;

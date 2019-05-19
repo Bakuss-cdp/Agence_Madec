@@ -2,6 +2,7 @@
 {{"<!-- Start Contact Us -->" | safeHTML}}
 <section id="contact-us" class="contact-us section-bg">
     <div class="container">
+	<div class="fomulaire-contact">
         <div class="row">
             <div class="col-lg-12">
                 {{"<!-- section title -->" | safeHTML}}
@@ -11,64 +12,127 @@
                 </div>
             </div>
             {{"<!-- /section title -->" | safeHTML}}
-
-            {{"<!-- Contact Details -->" | safeHTML}}
-            <div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
-                {{ with .Site.Data.contact.title }}<h3>{{ . }}</h3> {{ end }}
-                {{ with .Site.Data.contact.content }} <p> {{ . }} </p> {{ end }}
-                <div class="contact-details">
-                    {{ range .Site.Data.contact.contactDetails }}
-                    <div class="con-info clearfix">
-                        <i class="{{ .icon }}"></i>
-                        <span>{{ .info }}</span>
-                    </div>
-                    {{ end }}
-                </div>
-            </div>
-
-            {{"<!-- Contact Form -->" | safeHTML}}
-            <div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                <form id="contact-form" class="form-meghna" method="post" action="sendmail.php" role="form">
-
+        </div>
+            {{"<!-- Contact Form -->" | safeHTML}}  
+   			
+    <form id="contact-form" class="form-meghna" method="post" action="sendmail.php" role="form">
+                 
+		<div class="row">
+				 
+			<div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+				 
                     <input name="e-mail" type="text" id="e-mail" autocomplete="off">
 
                     <div class="form-group">
-                        <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+                        <input type="text" placeholder="Société" class="form-control" name="societe" id="societe">
                     </div>
 
                     <div class="form-group">
-                        <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+                        <input type="text" placeholder="Activité" class="form-control" name="activite" id="text">
                     </div>
 
                     <div class="form-group">
-                        <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+                        <input type="text" placeholder="Name *" class="form-control" name="name" id="name">
+                    </div>
+                     
+					 <div class="form-group">
+                        <input type="email" placeholder="Email *" class="form-control" name="email" id="email">
+                    </div>
+					
+					<div class="form-group">
+                        <input type="phone" placeholder="Phone" class="form-control" name="phone" id="phone">
+                    </div>
+            </div>
+				
+				
+			<div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+			
+                    <div class="form-group">
+                        <input type="text" placeholder="Adresse *" class="form-control" name="adresse" id="adresse">
                     </div>
 
+                    <div class="form-group">
+                        <input type="text" placeholder="Ville *" class="form-control" name="ville" id="ville">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" placeholder="Code postale" class="form-control" name="codepostale" id="codepostale">
+                    </div>
+					
+					<div class="form-group">
+                        <input type="text" placeholder="Pays" class="form-control" name="pays" id="pays">
+                    </div>
+					
+					<div class="form-group">
+                        <input type="phone" placeholder="Fax" class="form-control" name="fax" id="fax">
+                    </div>
+            </div>
+			
+	    </div>		
+		<div class="row">	
+		      <div class="col-lg-2">
+			  <p class="champs-obligatoire">(<span class="champs-etoile">*</span>) champs obligatoires</p>
+			  </div>
+			  
+              <div class="col-lg-8">		
+				    <div class="form-group">
+					  <label for="projet"> Type de Projet: </label> 
+					  <select name="objet" class="form-control">
+						     <option valeur="siteseb">Création de site web</option>
+							 <option valeur="design">Design et marketing</option>
+							 <option valeur="campagn">E-Mailing & E-Campagn</option>
+					   </select>
+					   
+                    </div>
+					
+					<div class="form-group">
+					
+                   <input type="text" placeholder="Objet" class="form-control" name="objet" id="objet">
+						
+						  
+                    </div>
+					
+					
+					
                     <div class="form-group">
                         <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
-                    </div>
-
-                    <div id="mail-success" class="success">
+                    </div> 
+					
+					
+					<div id="mail-success" class="success">
                         Thank you. The Mailman is on His Way :)
                     </div>
 
                     <div id="mail-fail" class="error">
                         Sorry, don't know what happened. Try later :(
                     </div>
-
-                    <div id="cf-submit">
-                        <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
-                    </div>
-
-                </form>
-            </div>
+					
+					<div class="row">
+						<div class="col-lg-4">
+						</div>
+						<div class="col-lg-4">
+							<div id="cf-submit">
+								<input type="submit" id="contact-submit" class="btn btn-transparent" value="Envoyer">
+							</div>
+						</div>
+						<div class="col-lg-4">
+			            </div>
+					</div>	
+					
+				</div>
+				
+				<div class="col-lg-2">
+			  </div>
+        </div>					
+    </form>
+  </div>        
 
     {{"<!-- Google Map -->" | safeHTML}}
     <div class="google-map">
         <div id="map-canvas" {{ with .Site.Data.contact.mapLatitude }} data-latitude="{{ . }}" {{ end }}
         {{ with .Site.Data.contact.mapLongitude }} data-longitude="{{ . }}" {{ end }}></div>
     </div>
-
+  </div>
 </section>
 {{"<!-- /contact -->" | safeHTML}}
 {{ end }}

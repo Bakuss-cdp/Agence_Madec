@@ -99,6 +99,14 @@ custom_css = ["css/custom.css"]
     btnText="Voir Nos réalisations"
     btnURL="/references/"
 	
+	[params.bannerc]
+    enable = true
+	bgImage = "images/slider/contactform.jpg"
+    icon = "tf-ion-play"
+    heading = "CONTACTEZ L'AGENCE MADEC"
+    content= ""
+    
+	
 
     # call to action
     [params.cta]

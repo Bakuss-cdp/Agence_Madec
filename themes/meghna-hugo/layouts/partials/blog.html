@@ -15,7 +15,7 @@
 
             {{ range .Data.Pages }}
             {{"<!-- single blog post -->" | safeHTML}}
-            <article class="col-lg-3 col-md-6 col-12 clearfix wow fadeInUp" data-wow-duration="500ms">
+            <article class="col-lg-6 col-md-6 col-12 clearfix wow fadeInUp" data-wow-duration="500ms">
                 <div class="post-block">
                     <div class="media-wrapper">
                         {{ with .Params.image }}<img src="{{ . | absURL }}" alt="post-image" class="img-fluid">{{ end }}

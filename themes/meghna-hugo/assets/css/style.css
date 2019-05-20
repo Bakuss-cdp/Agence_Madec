@@ -187,7 +187,7 @@ a:hover {
 }
 
 .bg-one {
-  background-color:grey;
+  background-color:#dcdcdc;
 }
 
 .bg-foot {
@@ -433,7 +433,7 @@ a:hover {
 }
 
 .section-bg {
-  background: #292F36;
+  background: #dcdcdc;
 }
 
 .overly {
@@ -1001,6 +1001,7 @@ a:hover {
 	margin-bottom:20px;
 	border:1px solid white;
 	padding:12px;
+	border-radius:10px;
 }
 
 .champs-obligatoire
@@ -1282,7 +1283,7 @@ a:hover {
 	
 	padding-top:10px;
 	padding-bottom:30px;
-	background-color:grey;
+	background-color:#dcdcdc;
 	
 }
 
@@ -1294,7 +1295,7 @@ a:hover {
 	
 	padding-top:20px;
 	padding-bottom:10px;
-	background-color:grey;
+	background-color:#dcdcdc;
 	
 }
 /*=================================================================
@@ -2427,6 +2428,35 @@ aside.widget {
 /*=================================================================
 	Single Blog Page
 ==================================================================*/
+
+.nos-actualite
+{
+	background-color:grey;
+}
+
+.articles-categorie-archives
+{
+	width:99%;
+	margin:auto;
+	height:700px;
+	border:1px solid green;
+	padding:10px;
+}
+
+.articles-categorie-archives h3
+{
+	width:99%;
+	margin:auto;
+	height:70px;
+	
+}
+
+.articles-categorie-archives h3 p:last-child
+{
+	border-bottom:2px dashed red;
+	
+}
+
 .single-blog {
   background-color: #fff;
   margin-bottom: 50px;

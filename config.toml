@@ -105,6 +105,13 @@ custom_css = ["css/custom.css"]
     icon = "tf-ion-play"
     heading = "CONTACTEZ L'AGENCE MADEC"
     content= ""
+	
+	[params.bannerb]
+    enable = true
+	bgImage = "images/slider/references.jpg"
+    icon = "tf-ion-play"
+    heading = "NOTRE ACTUALITE"
+    content= ""
     
 	
 

@@ -108,6 +108,17 @@ a:hover {
   transition: all .3s ease-in 0s;
 }
 
+.read-bouton
+{
+	padding:5px;
+	border:1px solid #083358;
+	background-color:#083358;
+	color:white;
+	text-align:right;
+	margin-left:68%;
+	margin-top:45px;
+}
+
 .btn:focus {
   color: #ddd;
 }
@@ -161,7 +172,7 @@ a:hover {
   position: absolute;
   top: -4px;
   width: 50px;
-  background-color: #57cbcc;
+  background-color: #fff
 }
 
 .color {
@@ -188,7 +199,17 @@ a:hover {
 
 .bg-one {
   background-color:#dcdcdc;
+  padding-bottom:1px;
 }
+
+.containeur
+{
+  	background-color:#fff;
+	margin-bottom:0;
+	margin-top:0;
+	width:100%;
+}
+
 
 .bg-foot {
   background-color:#083358;
@@ -258,8 +279,14 @@ a:hover {
 }
 
 .section {
-  padding: 100px 0;
+  padding-top:-1px;
 }
+
+#parlons-en
+{
+  margin-top:-30px;
+}
+
 
 @media (max-width: 480px) {
   .section {
@@ -410,9 +437,9 @@ a:hover {
 }
 
 .title h2 {
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-weight: 700;
-  font-size: 38px;
+  font-size: 32px;
   color: #083358;
 }
 
@@ -709,6 +736,25 @@ a:hover {
 /*=================================================================
   About us section
 ==================================================================*/
+.content-about
+{
+	width:97.5%;
+	margin:auto;
+	display:flex;
+}
+
+.image-about
+{
+	width:33%;
+	margin-bottom:0;
+	height:298px;
+}
+
+.image-about img
+{
+	height:298px;
+}
+
 .about .block {
   background: #242930;
   padding: 30px;
@@ -800,13 +846,14 @@ a:hover {
 
 .mot_presidente
 {
-	width:100%;
+	width:67%;
 	border:1px solid #083358;
 	height:298px;
 	background-color:#083358;
 	color:white;
 	padding-top:25px;
 	padding:15px;
+	
 }
 
 .mot_presidente h2
@@ -831,7 +878,7 @@ a:hover {
 
 .agence_references
 {
-	width:100%;
+	width:34%;
 	border:1px solid #083358;
 	height:298px;
 	background-color:white;
@@ -860,12 +907,13 @@ a:hover {
 
 .newsletter
 {
-	width:100%;
+	width:97%;
 	border:1px solid #083358;
 	height:298px;
 	background-color:#083358;
 	padding-top:25px;
 	padding:10px;
+	margin:auto;
 	
 }
 
@@ -909,12 +957,12 @@ a:hover {
 
 .parlons-en
 {
-	width:100%;
+	width:97%;
 	border:1px solid #083358;
 	height:298px;
 	background-color:white;
 	padding-top:25px;
-	padding:10px;
+	margin:auto;
 }
 
 .parlons-en h4
@@ -1182,6 +1230,12 @@ a:hover {
 /*=================================================================
   Portfolio section
 ==================================================================*/
+
+.filtr-container
+{
+	width:96%;
+	margin:auto;
+}
 .portfolio-filter {
   margin-bottom: 40px;
   text-align: center;
@@ -1280,20 +1334,24 @@ a:hover {
 
 .portfolio
 {
-	
-	padding-top:10px;
 	padding-bottom:30px;
 	background-color:#dcdcdc;
+	margin-top:-2px;
 	
 }
 
 /*=================================================================
   Services Ils nous font confiance
 ==================================================================*/
+
+#confiance
+{
+	margin-top:-30px;
+}
+
 .confiance
 {
-	
-	padding-top:20px;
+	margin-top:-7px;
 	padding-bottom:10px;
 	background-color:#dcdcdc;
 	
@@ -1301,6 +1359,14 @@ a:hover {
 /*=================================================================
   Services section
 ==================================================================*/
+.content-service
+{
+  width:97%;
+  margin:auto;
+  margin-bottom:1px;  
+}
+
+
 .services-block {
   border: 2px solid #fff;
   background-color:white;
@@ -1309,6 +1375,7 @@ a:hover {
   width:100%;
   color: #083358;
   padding-top:20px;
+  margin:auto;
 }
 
 .services-block2 {
@@ -1318,6 +1385,7 @@ a:hover {
   height:250px;
   width:100%;
   color: white;
+  margin:auto;
 }
 
 .services-icon {
@@ -1373,12 +1441,13 @@ a:hover {
 }
 
 .service-block {
-  border: 1px solid white;
   margin-bottom: 40px;
   background-color:#083358;
   padding-bottom:0px;
-  border: 1px solid #083358;
-  height:341px;
+  border: 1px solid white;
+  height:322px;
+  width:76%;
+  margin:auto;
 }
 
 .service-block .service-icon {
@@ -1404,12 +1473,12 @@ a:hover {
 .service-block p{
   padding: 10px 20px;
   border: 1px solid white;
-  margin-bottom: 40px;
   background-color:white;
   color:black;
+  font-size:12px;
   width:100%;
   text-align:left;
-  height:180px;
+  height:140px;
 }
 
 
@@ -1555,9 +1624,17 @@ a:hover {
 /*=================================================================
   Our Team
 ==================================================================*/
+#our-team
+{
+	margin-top:-10px;
+}
+
 .team-member {
   background-color: #292F36;
   margin-bottom: 10px;
+  border:1px solid #083358;
+  width:94%;
+  margin:auto;
 }
 
 .team-member:hover .mask {
@@ -1752,25 +1829,45 @@ a:hover {
 /*=================================================================
   Latest Posts
 ==================================================================*/
+
 .note {
   background-color: #292F36;
   border: 1px solid #4e595f;
 }
 
 .post-block {
-  background-color: #292F36;
+  background-color:#fff;
   margin-bottom: 10px;
+  margin-bottom:40px;
+  
 }
 
 .post-block .content {
   padding: 20px;
 }
 
+.content {
+  width:100%;	
+  border: 1px solid #083358;
+  height:150px;
+}
+
+.content h3 a{
+  color:black;
+  font-weight:bold;
+}
+
+.content p{
+  color:black;
+}
+
 .post-block .content h3 {
   margin: 0 0 6px;
   font-size: 20px;
   line-height: 1.5;
-  text-transform: capitalize;
+  text-transform: lowercase;
+  font-weight:bold;
+  height:70px;
 }
 
 .note .media-wrapper {
@@ -1790,6 +1887,12 @@ a:hover {
 /*=================================================================
   Single Blog Page
 ==================================================================*/
+#blog
+{
+	margin-top:-18px;
+}
+
+
 #blog-banner {
   padding-bottom: 100px;
   padding-top: 150px;
@@ -2043,6 +2146,70 @@ input#e-mail, #hidden_iframe {
 /*=================================================================
   Footer section
 ==================================================================*/
+.rounded-image
+{
+	border-radius:90px;
+	width:50px;
+	height:50px;
+}
+
+
+
+.footer-adress
+{
+  padding-top:17px;
+  width:80%;
+  border:1px solid transparent;	
+  background-color:transparent;
+  margin-left:20%;
+}
+
+.footer-adress h4 
+{
+  color:white;
+  font-weight:bold;
+}
+
+.footer-adress p
+{
+  color:white;
+  line-height:20px;
+  margin-bottom:1px;
+}
+
+.footer-adress p:last-child
+{
+  margin-top:1px;
+}
+
+.footer-adress p span
+{
+  margin-left:20px;
+}
+
+
+.footer-social 
+{
+  padding-top:17px;
+  width:80%;
+  border:1px solid transparent;	
+  background-color:transparent;
+  margin:auto;
+}
+
+.footer-social h4
+{
+  color:white;
+  text-align:center;
+  font-weight:bold;
+}
+
+.footer-social p
+{
+  color:white;
+  text-align:center;
+}
+
 .social-icon {
   padding: 60px 0 35px;
 }
@@ -2189,6 +2356,26 @@ input#e-mail, #hidden_iframe {
 
 #blog-page {
   margin: 0 0 40px;
+}
+
+.page-suivante
+{
+  width:90%;
+  margin:auto;
+  border:1px solid #fff;
+  margin-bottom:10px;
+  text-align:center;
+}
+
+.page-suivante p a
+{
+  color:black;
+  font-weight:bold;
+}
+
+.page-suivante p a span
+{
+  margin-left:15px;
 }
 
 .post-item .entry {
@@ -2431,23 +2618,50 @@ aside.widget {
 
 .nos-actualite
 {
-	background-color:grey;
+	background-color:#dcdcdc;
+	padding-top:20px;
 }
 
 .articles-categorie-archives
 {
 	width:99%;
 	margin:auto;
-	height:700px;
-	border:1px solid green;
+	height:170px;
+	border-bottom:1px dashed grey;
+	border-width:70%;
 	padding:10px;
+	padding-left:15px;
+	background-color:white;
+	
 }
 
 .articles-categorie-archives h3
 {
 	width:99%;
 	margin:auto;
-	height:70px;
+	height:40px;
+	text-align:center;
+	color:black;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:17px;
+	
+}
+
+.articles-categorie-archives p a
+{
+	text-align:left;
+	color:black;
+	font-size:15px;
+	margin-left:25px;
+}
+
+
+.articles-categorie-archives p a:hover
+{
+	
+	color:#083358;
+	font-size:21px;
 	
 }
 
@@ -2819,11 +3033,12 @@ background-color: #FF6600
 
 .logo_partenaires
 {
-  width:100%;
+  width:96%;
   height:140px;  
   background-color:#083358;
   display: flex;
   padding-top:11px;
+  margin:auto;
 }  
 
   .logo_partenaire
@@ -2890,6 +3105,7 @@ background-color: #FF6600
     background: -moz-linear-gradient(#fff, #999);
     background: -webkit-linear-gradient(#fff, #999);
     background: -o-linear-gradient(#fff, #999);
+	z-index:15;
 }
 
 .book-container h2
@@ -2983,6 +3199,39 @@ background-color: #FF6600
 	color:white;
 	}
 	
+
+.read-the-book
+{
+	width:90%;
+	height:800px;
+	border:2px solid #083358;
+	border-radius:7px;
+	margin:auto;
+	margin-top:12px;
+	margin-bottom:12px;
+	padding:10px;
+}
+
+.read-the-book h3
+{
+	width:70%;
+	height:40px;
+	border:2px solid #083358;
+	border-radius:12px 0 12px 0;
+	margin:auto;
+	margin-top:10px;
+	text-align:center;
+	background-color:#083358;
+	color:white;
+	padding-top:3px;
+	margin-bottom:12px;
+}
+
+.the-book
+{
+	width:90%;
+	margin:auto;
+}
 /*# sourceMappingURL=maps/style.css.map */
 
 

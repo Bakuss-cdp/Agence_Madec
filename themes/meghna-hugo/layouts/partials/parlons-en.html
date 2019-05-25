@@ -1,0 +1,28 @@
+{{ if .Site.Data.nosservices.enable}}
+{{"<!-- Start Nos Services Section -->" | safeHTML}}
+<section class="bg-one nos-services section" id="parlons-en">
+    <div class="container">
+	<div class="containeur"> 
+		<div class="row">		 
+		         <div class="parlons-en">
+                    {{ range .Site.Data.newsletter.newsletterItem }}
+                        {{with .title}} <h4 class="media-heading">{{ . }}</h4>{{ end }}
+                        {{ with .first}} <p>{{ . }}</p> {{ end }}
+					    {{ with .second}} <p>{{ . }}</p> {{ end }}
+					    {{ with .third}} <p>{{ . }}</p> {{ end }}
+                    {{ end }}
+
+					{{ if .Site.Params.banner.enable }}
+							<div class="inscription_newsletter">			
+							   {{ if .Site.Params.banner.btn}}
+								<a data-scroll href="{{ .Site.Params.banner.btnURL}}" class="btn btn-hero-area">{{ .Site.Params.banner.btnText}}</a>
+								{{ end }}
+							</div>
+					{{end}}
+				</div>
+        </div>
+    </div>
+</div>
+</section>
+{{"<!-- /about -->" | safeHTML}}
+{{ end }}

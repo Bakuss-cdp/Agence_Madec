@@ -1,0 +1,41 @@
+enable : true
+heading : Nos 
+headingSpan : Services
+artcatarchivesItem :
+  - title : Articles Récents
+    element1 : Bonne pratique en sécurité
+    URL1 : #
+    element2 : Les outils du SEO 
+    URL2 : #
+    element3 : Performances et éfficacité
+    URL3 : # 	
+    
+  - title : Categories
+    element1 : DESIGN
+    URL1 : #
+    element2 : WEBMARKETING
+    URL2 : #	
+    element3 : DEVELOPPEMENT
+    URL3 : #
+     
+  - title : Archives
+    element1 : Avril 2019
+    URL1 : #
+    element2 : Mars 2019 
+    URL2 : #
+    element3 : Février 2019
+    URL3 : #
+
+artcatarchivesItem2 :
+  - element : 1
+    URL : #
+    element2 : 2
+    URL2 : #
+    element3 : 3
+    URL3 : #
+    element4 : 4
+    URL4 : #
+    
+  - element : Suivant
+    URL : #
+    

@@ -7,12 +7,53 @@
 {{"<!-- Start Blog Section -->" | safeHTML}}
 <section id="blog" class="section nos-actualite">
     <div class="container">
+	   <div class="containeur"> 
 	
-	
-        
-		
-		
+        <div class="row">
+		   <div class="col-lg-8">	
+		    </br>
+				  <div class="row">
+					{{ range .Data.Pages }}
+					{{"<!-- single blog post -->" | safeHTML}}	
+					{{ .Render "article" }}
+					{{"<!-- /single blog post -->" | safeHTML}}
+					{{ end }}
+				   </div>
+		   </div>
+		   
+			<div class="col-lg-4">
+			 </br>
+				{{ range .Site.Data.artcatarchives.artcatarchivesItem}}
+				{{"<!-- artcatarchives Item -->" | safeHTML }}
+				
+					<div class="articles-categorie-archives">			
+						<h3>{{ .title }}</h3>	
+						  <p> <a href="{{ .URL1 | absURL }}" target="__blank">{{ .element1 }}</a> </p>
+						  <p> <a href="{{ .URL2 | absURL }}" target="__blank">{{ .element2 }}</a> </p>
+						  <p> <a href="{{ .URL3 | absURL }}" target="__blank">{{ .element3 }}</a> </p>
+					</div>
+					
+				 {{ end }}
+		    </div>	
+        </div>
+		<div class="row">
+		     {{ range .Site.Data.artcatarchives.artcatarchivesItem2}}
+				{{"<!-- artcatarchives Item -->" | safeHTML }}
+			  <div class="col-lg-4">
+				   <div class="page-suivante">
+						<p> 
+						<a href="{{ .URL | absURL }}" title="page suivante"><span>{{ .element }}</span></a> 
+						<a href="{{ .URL2 | absURL }}" title="page 2"><span>{{ .element2 }}</span></a>
+						<a href="{{ .URL3 | absURL }}" title="page 3"><span>{{ .element3 }}</span></a>
+						<a href="{{ .URL4 | absURL }}" title="page 4"><span>{{ .element4 }}</span></a>
+						</p>
+				  </div>
+			  </div>
+		   
+			 {{ end }} 
+		</div>
     </div>
+  </div>	
 </section>
 {{"<!-- /blog -->" | safeHTML}}
 

@@ -39,7 +39,8 @@
 						<div class="white-book text-center">
 							{{"<!-- Yes or No -->" | safeHTML}}
 							<div class="book-choix">
-								<a href="#"><h4>{{ .choix }}</h4></a>
+								<a href="{{ .URL | absURL }}" title="lire le livre"><h4>{{ .choix }}</h4></a>
+								
 								    
 							</div>
 						</div>

@@ -1,0 +1,25 @@
+enable : true
+piedpageItem :
+  - icon : tf-map-pin
+    content : 25 rue de Peupliers
+    content2 : 65345 - Mâcon
+    content3 : FRANCE
+    
+  - icon : tf-ion-ios-telephone
+    content : 04 54 44 34 24
+    
+  - icon : tf-ion-android-mail
+    content : madec-agence@gmail.com
+
+piedpageItem2 :
+  - titre : A PROPOS
+    content : Agence digitale Spécialisée
+    content2 : dans le Marketing, le Design
+    content3 : et dans le dévéloppement Web
+   
+piedpageItem3 :
+  - titre : MADEC
+    content : sur facebook
+    image: images/portfolio/madec-sur-fbk.jpg
+    url: https://www.facebook.com/madec.agencemadec.3
+   

@@ -7,8 +7,8 @@
 
 						<div class="content">
 							<h3><a href="{{ .Permalink }}">{{ with .Params.name}}{{.}}{{else}}{{ .Title }}{{end}}</a></h3>
-							<p>{{ .Summary }}</p>
-							<a class="btn btn-transparent" href="{{ .Permalink }}">{{ i18n "readMore" }}</a>
+							<p><!-- {{ .Summary }} --></p>
+							<a class="read-bouton" href="{{ .Permalink }}">{{ i18n "readMore" }}</a>
 						</div>
 					</div>
 				</article>

@@ -2,14 +2,16 @@
 {{"<!-- Start Nos Services Section -->" | safeHTML}}
 <section class="bg-one nos-services section" id="nos-services">
     <div class="container">
+	<div class="containeur"> 
+	  <div class="content-service"> 
         <div class="row">
-            <div class="col-lg-12">
+           <!-- <div class="col-lg-12">
                 {{"<!-- section title -->" | safeHTML}}
-                <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+              <!--  <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
                     <h2>{{ .Site.Data.nosservices.heading}} <span class="color">{{ .Site.Data.nosservices.headingSpan}}</span> </h2>
                     <div class="border-meghna"></div>
                 </div>
-            </div>
+            </div>-->
             {{"<!-- /section title -->" | safeHTML}}
            
 		   {{ range .Site.Data.nosservices.serviceItem}}
@@ -83,31 +85,10 @@
 				</div>	
             {{"<!-- Nos Services font bleu -->" | safeHTML }}
             {{ end }}
-		
+		</div>
 	</div>	    
-		
-		{{ partial "portfolio.html" . }}
-		
-		<div class="row">		 
-		         <div class="parlons-en">
-                    {{ range .Site.Data.newsletter.newsletterItem }}
-                        {{with .title}} <h4 class="media-heading">{{ . }}</h4>{{ end }}
-                        {{ with .first}} <p>{{ . }}</p> {{ end }}
-					    {{ with .second}} <p>{{ . }}</p> {{ end }}
-					    {{ with .third}} <p>{{ . }}</p> {{ end }}
-                    {{ end }}
-
-					{{ if .Site.Params.banner.enable }}
-							<div class="inscription_newsletter">			
-							   {{ if .Site.Params.banner.btn}}
-								<a data-scroll href="{{ .Site.Params.banner.btnURL}}" class="btn btn-hero-area">{{ .Site.Params.banner.btnText}}</a>
-								{{ end }}
-							</div>
-					{{end}}
-
-				</div>
-        </div>
-    </div>
+   </div>
+</div>
 </section>
 {{"<!-- /about -->" | safeHTML}}
 {{ end }}

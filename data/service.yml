@@ -2,20 +2,20 @@ enable : true
 heading : Nos 
 headingSpan : Services
 serviceItem :
-  - icon : tf-globe
+  - icon : tf-briefcase2
     title : Consulting & Stretegy
     content : Nous réalisons un audit de vos services afin de définir les performances de votre entreprise.
               Nous élaborons une stratégie digitale adpatée à votre secteur et votre cible
     
-  - icon : tf-ion-laptop
+  - icon : tf-bargraph
     title : Referencment & Didital Marketing
     content : Nous vous proposons notre savoir faire pour mettre en place des techniques permettant de communiquer, de viser et de toucher vos cibles.
     
-  - icon : tf-genius
+  - icon : tf-ion-wrench
     title : Creation & Refonte de site Internet
     content : Nous Développons des sites web en utilisant des technologies les plus récentes allinat sécurité et éfficacité
 
     
-  - icon : tf-dial
+  - icon : tf-pencil2
     title : UI UX Design & Creation Graphic
     content : Nous mettons à votre disposition une équipe de designers pour réaliser vos projets afin de travailler l'image de votre entreprise..

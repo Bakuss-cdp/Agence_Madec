@@ -2,8 +2,10 @@
 {{"<!-- service -->" | safeHTML }}
 <section id="services" class="bg-one section">
     <div class="container">
+	 <div class="containeur">
         <div class="row">
             <div class="col-lg-12">
+			</br>
                 {{"<!-- section title -->" | safeHTML }}
                 <div class="title text-center wow fadeIn" data-wow-duration="500ms">
                     <h2>{{ with .Site.Data.service.heading }} {{ . }} {{ end }}<span class="color">{{ with .Site.Data.service.headingSpan }} {{ . }} {{ end }}</span></h2>
@@ -26,7 +28,8 @@
             {{"<!-- End Single Service Item -->" | safeHTML }}
             {{ end }}
         </div>
-    </div>
+      </div>
+	</div>
 </section>
 {{"<!-- /service -->" | safeHTML }}
 {{ end }}

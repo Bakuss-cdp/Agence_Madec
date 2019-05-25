@@ -2,20 +2,20 @@ enable : true
 heading :  Nos 
 headingSpan : Services 
 serviceItem :
-  - icon : tf-globe
+  - icon : tf-briefcase2
     title : Stratégie & Consulting
     content : Elaboration Stratégie Digitale  Audit      Veille      Conseils
               
 serviceItem2 :  
-  - icon : tf-dial
+  - icon : tf-bargraph
     title : Digital Marketing
     content : Stratégie éditoriale          Référencement     E-Reputation     Campagne E-Mailing   Stratégie Media Sociaux	
 serviceItem3 :    
-  - icon : tf-ion-laptop
+  - icon : tf-ion-wrench
     title : Développement
     content : Création de site Internet     Refonte de site Internet     site E-commerce   Technologie:CMS Jamstack
 
 serviceItem4 : 
-  - icon : tf-genius
+  - icon : tf-pencil2
     title : Design
     content : UX Design         Design Web            LogoType

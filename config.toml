@@ -28,11 +28,6 @@ summaryLength = 10
     URL = "/references/"
     weight = 4
 
-    [[menu.nav]]
-    name = "L'Equipe"
-    URL = "#our-team"
-    weight = 5
-
     [[menu.nav ]]
     name = "Blog"
     URL = "/blog"
@@ -42,6 +37,7 @@ summaryLength = 10
     name = "Contact"
     URL = "/nous-contact/"
     weight = 8
+	
 
 # Site params
 [params]
@@ -65,7 +61,7 @@ custom_css = ["css/custom.css"]
     content= "Nous sommes une agence digitale à la hauteur de vos attentes"
     btn = true
     btnText="CONTACTEZ-NOUS"
-    btnURL="#contact-us"
+    btnURL="/contact-us/"
 	
 	
 	[params.bannerp]
@@ -76,7 +72,7 @@ custom_css = ["css/custom.css"]
     content= "Agence digitale"
     btn = true
     btnText="CONTACTEZ-NOUS"
-    btnURL="#contact-us"
+    btnURL="/nous-contact/"
 	
 	
 	[params.banners]

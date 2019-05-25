@@ -1,6 +1,6 @@
 enable : true
 heading : L'
-headingSpan : Equipe
+headingSpan : équipe
 teamMember :
   - image : images/team/femme_picto.jpg
     name : Mathilde J.

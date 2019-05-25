@@ -4,31 +4,47 @@
 		<div class="row wow fadeInUp" data-wow-duration="500ms">
 		
 		    <div class="col-lg-4 col-md-6 col-12">
-
-				{{"<!-- Footer Adress -->" | safeHTML}}
-				<div class="social-icon">
-					adresse est ici
-				</div>
+			
+				  {{ range .Site.Data.piedpage.piedpageItem}}
+					{{"<!-- Footer Adress -->" | safeHTML}}
+					   
+						<div class="footer-adress">       
+							 <p> <i class="{{ .icon }}"></i> {{ .content }}</p>
+							 <p><span>{{ .content2 }}</span></p>
+							 <p><span>{{ .content3 }}</span></p>
+						</div>
+				{{"<!-- Footer Adress -->" | safeHTML }}
+				{{ end }}
+					
 			</div>
 			
+			
+			
 			<div class="col-lg-4 col-md-6 col-12">
+               <div class="footer-social">  
+					 {{ range .Site.Data.piedpage.piedpageItem3 }}
+							<h4><span>{{ .titre }}</span></h4>
+							 <p><span>{{ .content }}</span></p>		
 
-				{{"<!-- Footer Social Facebook -->" | safeHTML}}
-				<div class="social-icon">
-					<ul class="list-inline">
-						{{ range .Site.Params.footer.socialIcon }}
-						<li class="list-inline-item"><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
+               <p> <a href="{{ .url }}" target="__blank"><img class="rounded-image" src="{{ .image | absURL}}" alt="Madec sur fbk"></a> </p>							 
 						{{ end }}
-					</ul>
-				</div>
+					
+			 </div>	
 			</div>
 			
 			<div class="col-lg-4 col-md-6 col-12">
-
-				{{"<!-- Footer A Propos -->" | safeHTML}}
-				<div class="social-icon">
-					A Propos de Madec
-				</div>
+                   
+				{{ range .Site.Data.piedpage.piedpageItem2}}
+					{{"<!-- Footer Adress -->" | safeHTML}}
+					
+						<div class="footer-adress">       
+							 <h4>{{ .titre }}</h4>
+							 <p>{{ .content }}</p>
+							 <p>{{ .content2 }}</p>
+							 <p>{{ .content3 }}</p>
+						</div>
+				{{"<!-- Footer Adress -->" | safeHTML }}
+				{{ end }}
 			</div>
 			
 		</div>

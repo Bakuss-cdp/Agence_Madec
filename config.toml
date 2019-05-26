@@ -61,7 +61,7 @@ custom_css = ["css/custom.css"]
     content= "Nous sommes une agence digitale à la hauteur de vos attentes"
     btn = true
     btnText="CONTACTEZ-NOUS"
-    btnURL="/contact-us/"
+    btnURL="/nous-contact/"
 	
 	
 	[params.bannerp]
@@ -80,7 +80,7 @@ custom_css = ["css/custom.css"]
 	bgImage = "images/slider/services.jpg"
     icon = "tf-ion-play"
     heading = "SERVICES"
-    content= "Les services que proposons"
+    content= "Les services que nous proposons"
     btn = true
     btnText="Voir Nos réalisations"
     btnURL="/references/"

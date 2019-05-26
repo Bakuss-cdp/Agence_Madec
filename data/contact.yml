@@ -1,6 +1,6 @@
 enable : true
 heading : Nous
-headingSpan : Contacter
+headingSpan :  Contacter
 enable_maps : true
 mapLatitude : 46.3
 mapLongitude: 4.8333   

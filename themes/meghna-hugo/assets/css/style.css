@@ -1062,6 +1062,45 @@ a:hover {
 	color:red;
 }
 
+
+.madec-contact-form
+{
+  border:1px solid #f5fe5dc; 
+  padding:50px;	
+}
+
+.madec-contacter p
+{
+	width:90%;
+	border:1px solid white;
+	text-align:right;
+}
+
+.madec-contacter p label
+{
+	color:black;
+	font-weight:bold;
+}
+
+.madecform
+{
+	border:1px solid #083358;
+	width:250px;
+	margin-left:50px;
+	background-color:#dcdcdc;
+}
+
+
+.madecform2
+{
+	border:1px solid #083358;
+	width:450px;
+	margin-right:2px;
+	background-color:#dcdcdc;
+}
+	
+
+
 @media (max-width: 768px)
 {
   .contact-us {

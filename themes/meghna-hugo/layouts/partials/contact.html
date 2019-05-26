@@ -2,7 +2,7 @@
 {{"<!-- Start Contact Us -->" | safeHTML}}
 <section id="contact-us" class="contact-us section-bg">
     <div class="container">
-	<div class="fomulaire-contact">
+<div class="fomulaire-contact">
         <div class="row">
             <div class="col-lg-12">
                 {{"<!-- section title -->" | safeHTML}}
@@ -15,96 +15,99 @@
         </div>
             {{"<!-- Contact Form -->" | safeHTML}}  
    			
-    <form id="contact-form" class="form-meghna" method="post" action="sendmail.php" role="form">
-                 
+    <!--<form id="contact-form" class="form-meghna" method="post" action="sendmail.php" role="form">-->
+    
+ <div class="col-lg-12">
+              <h4 class="demander-devis" style="text-align:center;">Vous pouvez demander un devis via ce formulaire</h4>
+   <div class="madec-contact-form">
+	
+	 <form name="madec-contact" method="POST" data-netlify="true">
+		   
 		<div class="row">
 				 
-			<div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+			<div class="col-lg-6 wow fadeInUp madec-contacter" data-wow-duration="500ms" data-wow-delay="300ms">
 				 
-                    <input name="e-mail" type="text" id="e-mail" autocomplete="off">
+                  <!--  <input name="e-mail" type="text" id="e-mail" autocomplete="off"> -->
 
-                    <div class="form-group">
-                        <input type="text" placeholder="Société" class="form-control" name="societe" id="societe">
-                    </div>
+                    <p>
+                        <label>Société: <input type="text" class="madecform" name="societe"/></label>
+                    </p>
 
-                    <div class="form-group">
-                        <input type="text" placeholder="Activité" class="form-control" name="activite" id="text">
-                    </div>
+                    <p>
+                        <label>Activité: <input type="text" class="madecform" name="activite" /></label>
+                    </p>
 
-                    <div class="form-group">
-                        <input type="text" placeholder="Name *" class="form-control" name="name" id="name">
-                    </div>
+                    <p>
+                        <label>Nom *: <input type="text" class="madecform" name="name"/> </label>
+                    </p>
                      
-					 <div class="form-group">
-                        <input type="email" placeholder="Email *" class="form-control" name="email" id="email">
-                    </div>
+					 <p>
+                       <label>Email *: <input type="email" class="madecform" name="email"/></label>
+                    </p>
 					
-					<div class="form-group">
-                        <input type="phone" placeholder="Phone" class="form-control" name="phone" id="phone">
-                    </div>
+					<p>
+                       <label>Phone : <input type="phone" class="madecform" name="phone"/></label>
+                    </p>
             </div>
 				
 				
-			<div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-			
-                    <div class="form-group">
-                        <input type="text" placeholder="Adresse *" class="form-control" name="adresse" id="adresse">
-                    </div>
+			<div class="col-lg-6 wow fadeInUp madec-contacter" data-wow-duration="500ms" data-wow-delay="300ms">
+			    
+                    <p>
+                       <label>Adresse * : <input type="text"  class="madecform" name="adresse" /></label>
+                    </p>
 
-                    <div class="form-group">
-                        <input type="text" placeholder="Ville *" class="form-control" name="ville" id="ville">
-                    </div>
+                    <p>
+                        <label>Ville * : <input type="text"  class="madecform" name="ville"/></label>
+                     </p>
 
-                    <div class="form-group">
-                        <input type="text" placeholder="Code postale" class="form-control" name="codepostale" id="codepostale">
-                    </div>
+                    <p>
+                       <label>Code Postal * : <input type="text" class="madecform" name="codepostale"/></label>
+                     </p>
 					
-					<div class="form-group">
-                        <input type="text" placeholder="Pays" class="form-control" name="pays" id="pays">
-                    </div>
+					<p>
+                        <label>Pays * : <input type="text" class="madecform" name="pays"/></label>
+                     </p>
 					
-					<div class="form-group">
-                        <input type="phone" placeholder="Fax" class="form-control" name="fax" id="fax">
-                    </div>
+					<p>
+                       <label>Fax : <input type="phone" class="madecform" name="fax"/></label>
+                     </p>
             </div>
 			
 	    </div>		
-		<div class="row">	
+		<div class="row madec-contacter" >	
 		      <div class="col-lg-2">
 			  <p class="champs-obligatoire">(<span class="champs-etoile">*</span>) champs obligatoires</p>
 			  </div>
 			  
               <div class="col-lg-8">		
-				    <div class="form-group">
-					  <label for="projet"> Type de Projet: </label> 
-					  <select name="objet" class="form-control">
+				    <p>
+					  <label> Type de Projet: 
+					  <select name="projet" class="madecform2">
 						     <option valeur="siteseb">Création de site web</option>
 							 <option valeur="design">Design et marketing</option>
 							 <option valeur="campagn">E-Mailing & E-Campagn</option>
-					   </select>
+					   </select></label> 
 					   
-                    </div>
+                    </p>
 					
-					<div class="form-group">
-					
-                   <input type="text" placeholder="Objet" class="form-control" name="objet" id="objet">
-						
-						  
-                    </div>
+					<p>
+                   <label>Objet : <input type="text" class="madecform2" name="objet"/></label>
+                    </p>
 					
 					
 					
-                    <div class="form-group">
-                        <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
-                    </div> 
+                    <p>
+                     <label>Massage : <textarea rows="6" class="madecform2" name="message"></textarea></label>
+                   </p> 
 					
 					
 					<div id="mail-success" class="success">
-                        Thank you. The Mailman is on His Way :)
+                        Merci de votre message. Nous donnons suite à votre demande ASAP :)
                     </div>
 
                     <div id="mail-fail" class="error">
-                        Sorry, don't know what happened. Try later :(
+                        Désolé, votre message n'est pas parti. Veuillez réessayer! :(
                     </div>
 					
 					<div class="row">
@@ -125,7 +128,9 @@
 			  </div>
         </div>					
     </form>
-  </div>        
+  </div>
+  </div>
+</div>        
 
     {{"<!-- Google Map -->" | safeHTML}}
     <div class="google-map">

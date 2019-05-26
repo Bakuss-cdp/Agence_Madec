@@ -292,6 +292,7 @@ a:hover {
   .section {
     padding: 50px 0;
   }
+   
 }
 
 @media (max-width: 768px) {
@@ -1099,13 +1100,74 @@ a:hover {
 	background-color:#dcdcdc;
 }
 	
+@media (max-width: 991px)
+{
+	 .news-email
+         {
+		width:45%;
+		margin:auto;
+    }
+     
+	 #abonner-submit 
+	 {
+	  width: 45%;
+	  margin: auto;
+	}
 
+}
 
 @media (max-width: 768px)
 {
   .contact-us {
     padding-top: 80px;
   }
+    
+	
+	.content-about 
+	{
+		display:flex;
+	}
+	
+	.mot_presidente
+	{
+		overflow:hidden;
+	}
+     
+     .news-email
+         {
+		width:45%;
+		margin:auto;
+    }
+     
+	 #abonner-submit 
+	 {
+	  width: 45%;
+	  margin: auto;
+	}
+	 
+	.madec-contacter p
+	{
+		width:90%;
+		border:1px solid white;
+		text-align:center;
+	}
+
+	.madecform
+	{
+		border:1px solid #083358;
+		width:90%;
+		margin-left:10px;
+		background-color:#dcdcdc;
+	}
+
+	.madecform2
+	{
+		border:1px solid #083358;
+		width:95%;
+		margin-left:10px;
+		background-color:#dcdcdc;
+	}
+ 
 }
 
 .contact-form {

@@ -1126,6 +1126,7 @@ a:hover {
 	.content-about 
 	{
 		display:flex;
+	    flex-wrap: wrap;
 	}
 	
 	.mot_presidente
@@ -1133,6 +1134,40 @@ a:hover {
 		overflow:hidden;
 	}
      
+	 .agence_references
+	 {
+		overflow:hidden; 
+	 }
+	 
+	 .newsletter
+	 {
+		 height:auto;
+	 }
+	 
+	 
+	 .references-content
+	 {
+		height:auto;
+        padding-top:-10px;
+        padding:0;		
+	 }
+	 
+	  .references-content p
+	 {
+		margin-bottom:-25px;		
+	 }
+	 
+	.read-bouton
+	{
+		margin-left:5px;
+	}
+	 
+	 
+	 .parlons-en
+	 {
+		 height:auto;
+	 }
+	 
      .news-email
          {
 		width:45%;
